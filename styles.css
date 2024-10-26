@@ -1,0 +1,35 @@
+/* styles.css */
+
+#chatgpt-folder-container {
+    margin-bottom: 20px;
+  }
+  
+  .chatgpt-folder {
+    padding: 8px 12px;
+    margin: 4px 0;
+    background-color: #1a1a1a;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .chatgpt-folder:hover {
+    background-color: #333;
+  }
+  
+  #add-folder-button {
+    display: block;
+    width: 100%;
+    padding: 8px 12px;
+    margin-top: 10px;
+    background-color: #0a84ff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #add-folder-button:hover {
+    background-color: #0066cc;
+  }
+  
