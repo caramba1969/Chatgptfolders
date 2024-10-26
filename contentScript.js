@@ -70,6 +70,14 @@ function injectFolderUI() {
   folderContainer.style.padding = '10px';
   folderContainer.style.borderBottom = '1px solid #ccc';
 
+  // Apply dark or light mode styles based on the user's preference
+  const darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+  if (darkModeMediaQuery.matches) {
+    folderContainer.classList.add('dark-mode');
+  } else {
+    folderContainer.classList.add('light-mode');
+  }
+  
   // Insert the folder container at the top of the sidebar
   sidebar.prepend(folderContainer);
 
